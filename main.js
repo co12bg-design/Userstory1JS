@@ -27,8 +27,6 @@ showToast();
 
 }else if (age <= 18) {
     alert(`Hello! ${name}, you are a minor. Keep learning and enjoying coding!`)
-}
-
-else {
+} else {
 alert(`Hello! ${name}, you are an adult. Get ready for great opportunities in the world of programming!`)
 }
