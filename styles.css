@@ -1,17 +1,23 @@
 *{
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    background: #8da9e3;
 }
 
+body{
+    background: url("assest/images/background.webp") no-repeat center/cover fixed;
+    backdrop-filter: blur(6px);
+
+}
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     color: white;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     font-size: xx-large;
+    z-index: 120;
+    font-weight:bolder;
 }
 #toast {
     position: fixed;
